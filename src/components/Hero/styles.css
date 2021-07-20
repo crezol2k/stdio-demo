@@ -1,0 +1,57 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../../images/background.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero::after {
+    content: "";
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+  
+  .hero-clipped {
+    width: 60%;
+    position: absolute;
+    height: inherit;
+    background-color: #eee;
+    top: 0;
+    right: 0;
+    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+    z-index: 10;
+  }
+  
+  .hero-textbox {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    color: var(--black-color);
+    padding: 10px;
+    z-index: 20;
+  }
+  
+  .main-heading {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 5px;
+  }
+  
+  .sub-heading {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 16px 0;
+  }
+  
