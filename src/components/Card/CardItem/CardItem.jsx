@@ -1,11 +1,10 @@
 import React from "react";
 import "../../Card/CardItem/style.css";
-import { Link } from "react-router-dom";
 
 const CardItem = ({ cart, handleRemoveToCart, handleUpdateToCart }) => {
   return (
     <div className="col-lg-3 col-md-6 col-sm-6">
-      <div className="card">
+      <div className="card mb-3">
         <img src={cart.src} className="card-img-top" alt={cart.title} />
         <div className="card-body">
           <h5 className="card-title fw-bold">{cart.title} </h5>
@@ -31,7 +30,7 @@ const CardItem = ({ cart, handleRemoveToCart, handleUpdateToCart }) => {
               +
             </button>
           </div>
-          <h5 className="card-title fw-bold">Giá: {cart.price} VND </h5>
+          <h5 className="card-title fw-bold">Giá: ${cart.price}</h5>
 
           <button
             className="btn btn-danger mt-4"

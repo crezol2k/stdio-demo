@@ -77,9 +77,14 @@ header {
   padding: 15px;
   padding-left: 0;
   border-right: 1px solid var(--grey-color);
+  cursor: pointer;
 }
 .menuToggle:hover {
   color: #262626;
+}
+
+.menuToggle-icon {
+  font-size: 2rem;
 }
 .nav-mobile {
   display: none;

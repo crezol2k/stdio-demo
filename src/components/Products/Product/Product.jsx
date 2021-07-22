@@ -13,17 +13,16 @@ const Product = ({ product, onAddToCart }) => {
           className="nav-link card-body"
         >
           <img src={product.src} className="card-img-top" alt={product.title} />
-          <div className="card-content mt-2">
+          <div className="card-content">
             <h5 className="card-title">{product.title} </h5>
-
-            <p className="card-text fw-bold">Giá: {product.price} VNĐ</p>
+            <p className="card-text fw-bold mb-2">Giá: {product.price} VNĐ</p>
           </div>
         </Link>
         <button
-          className="btn-main mx-3 mt-3 mb-4"
+          className="btn-main my-4 mx-3"
           onClick={() => onAddToCart(product, 1)}
         >
-          Add to cart
+          Mua ngay
         </button>
       </div>
     </div>

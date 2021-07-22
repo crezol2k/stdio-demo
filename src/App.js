@@ -7,14 +7,25 @@ import Hero from "./components/Hero/index";
 import Products from "./components/Products/Products";
 import Card from "./components/Card/Card";
 import Checkout from "./components/Checkout";
-import ProductDetail from "./components/Products/Product/Product";
+import ProductDetail from "./components/Products/ProductDetail/index";
 
 function App() {
   const [products, setproducts] = useState([]);
   const [carts, setCarts] = useState([]);
   const [total, setTotal] = useState(0);
-  console.log(carts);
 
+  //Get data Product
+  const trieveProduct = async () => {
+    const response = await api.get("/products");
+    return response.data;
+  };
+
+  //Get data Cart
+  const trieveCart = async () => {
+    const response = await api.get("/carts");
+    return response.data;
+  };
+  
   //useEffect data Product
   useEffect(() => {
     const getProducts = async () => {
@@ -34,18 +45,6 @@ function App() {
     };
     getTotal();
   }, [carts]);
-
-  //Get data Product
-  const trieveProduct = async () => {
-    const response = await api.get("/products");
-    return response.data;
-  };
-
-  //Get data Cart
-  const trieveCart = async () => {
-    const response = await api.get("/carts");
-    return response.data;
-  };
 
   //useEffect data Cart
   useEffect(() => {
@@ -113,9 +112,7 @@ function App() {
             />
           </Route>
 
-          <Route path="/product/:id">
-            <ProductDetail />
-          </Route>
+          <Route path="/product/:id" component={ProductDetail} />
 
           <Route path="/checkout" exact>
             <Checkout />

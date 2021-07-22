@@ -5,16 +5,16 @@ import "../../components/Header/style.css";
 
 const Header = ({ carts }) => {
   const totalQuantity = carts.reduce((prev, item) => {
-    return prev += item.quantity
-  }, 0)
+    return (prev += item.quantity);
+  }, 0);
 
   const [click, setClick] = useState(true);
   const onClick = () => setClick(!click);
   return (
     <header className="container-fluid">
       <div className="nav-left">
-        <Link className="menuToggle" onClick={onClick}>
-          {click ? <Icon.List className="icon-list" /> : <Icon.X />}
+        <div className="menuToggle" onClick={onClick}>
+          {click ? <Icon.List className="menuToggle-icon" /> : <Icon.X className="menuToggle-icon" />}
           <div
             className={click ? "nav-mobile" : "nav-mobile active"}
             onClick={onClick}
@@ -27,12 +27,12 @@ const Header = ({ carts }) => {
               <Icon.CardText className="nav-link-mobile__icon" />
               Sản phẩm
             </Link>
-            <Link className="nav-link-mobile">
+            <Link to="/contacts" className="nav-link-mobile">
               <Icon.Envelope className="nav-link-mobile__icon" />
               Liên hệ
             </Link>
           </div>
-        </Link>
+        </div>
 
         <Link to="/" className="nav-link nav-logo">
           Nguyen
@@ -43,7 +43,7 @@ const Header = ({ carts }) => {
           <Link to="/product" className="nav-link">
             Sản phẩm
           </Link>
-          <Link className="nav-link">Liên hệ</Link>
+          <Link to="/contacts" className="nav-link">Liên hệ</Link>
         </div>
 
         <Link to="/cart" className="nav-link cart-menu">

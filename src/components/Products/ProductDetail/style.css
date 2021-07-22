@@ -1,0 +1,46 @@
+img {
+  width: 100%;
+}
+
+.detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-size: 150%;
+  margin-top: 80px;
+}
+.img-detail {
+  max-width: 500px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 4px 12px 0 rgb(0 0 0 / 15%);
+}
+.box-detail {
+  max-width: 500px;
+  width: 100%;
+  margin: 5px 20px;
+}
+
+.img-select {
+}
+.box-detail .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-detail h2 {
+  text-transform: uppercase;
+  color: crimson;
+  font-size: 2.2rem;
+}
+
+.box-detail p {
+  line-height: 1.5;
+  margin: 10px 0;
+  opacity: 0.8;
+}

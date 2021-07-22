@@ -3,74 +3,86 @@
     {
       "id": 1,
       "title": "Cappuccino Coconut 12",
-      "price": 533,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000795.jpg"
+      "price": 50,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000795.jpg",
+      "type": "1"
     },
     {
       "id": 2,
       "title": "Máy pha cà phê LegendEra I",
-      "price": 3000,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6001858.jpg"
+      "price": 300,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6001858.jpg",
+      "type": "2"
     },
     {
       "id": 3,
       "title": "Máy pha cà phê Conti CC20",
-      "price": 5600,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6001987_1.jpg"
+      "price": 560,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6001987_1.jpg",
+      "type": "2"
     },
     {
       "id": 4,
       "title": "Máy pha café Conti CC102",
-      "price": 9500,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6002126-1.jpg"
+      "price": 950,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6002126-1.jpg",
+      "type": "2"
     },
     {
       "id": 5,
       "title": "Máy xay cà phê Fiorenzato",
-      "price": 1705,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6001984.jpg"
+      "price": 10,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6001984.jpg",
+      "type": "2"
     },
     {
       "id": 6,
       "title": "Máy pha cafe tự động Scott Slimissimo",
-      "price": 1919,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6002302.jpg"
+      "price": 195,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6002302.jpg",
+      "type": "3"
     },
     {
       "id": 7,
       "title": "Cà phê sáng tạo 8",
-      "price": 349,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000124_1_4.jpg"
+      "price": 35,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000124_1_4.jpg",
+      "type": "4"
     },
     {
       "id": 8,
       "title": "Gu mạnh 3 in 1 hộp 12 gói",
-      "price": 454,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000069_4.jpg"
+      "price": 45,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000069_4.jpg",
+      "type": "4"
     },
     {
       "id": 9,
       "title": "Cà phê Chế Phin Loại 1",
-      "price": 77,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000104_5.jpg"
+      "price": 75,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000104_5.jpg",
+      "type": "4"
     },
     {
       "id": 10,
       "title": "Cà phê sáng tạo 1",
       "price": 45,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000255_3.jpg"
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000255_3.jpg",
+      "type": "4"
     },
     {
       "id": 11,
       "title": "Cà phê LEGEND",
-      "price": 924,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000519.jpg"
+      "price": 90,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000519.jpg",
+      "type": "1"
     },
     {
       "id": 12,
       "title": "Legend Special Edition",
-      "price": 99,
-      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000562.jpg"
+      "price": 100,
+      "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000562.jpg",
+      "type": "Cà phê bột"
     }
   ],
   "carts": []
