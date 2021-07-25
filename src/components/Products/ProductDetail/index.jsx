@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../../Products/ProductDetail/style.css";
 
 const ProductDetail = (props) => {
+  console.log(props);
   const product = props.location.state.product;
   return (
     <div className="container">
@@ -11,7 +12,7 @@ const ProductDetail = (props) => {
           <div className="img-show">
             <img src={product.src} alt={product.title} className="img-detail" />
           </div>
-          <div className="img-select d-flex col-4">
+          <div className="img-select">
             <img src={product.src} alt={product.title} />
             <img src={product.src} alt={product.title} />
             <img src={product.src} alt={product.title} />
@@ -29,7 +30,7 @@ const ProductDetail = (props) => {
           <p>content</p>
           <p>sold</p>
           <div className="mt-5">
-            <Link to="">
+            <Link to="/">
               <button className="btn-main">Mua ngay</button>
             </Link>
             <Link to="/product">

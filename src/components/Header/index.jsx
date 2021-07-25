@@ -14,7 +14,11 @@ const Header = ({ carts }) => {
     <header className="container-fluid">
       <div className="nav-left">
         <div className="menuToggle" onClick={onClick}>
-          {click ? <Icon.List className="menuToggle-icon" /> : <Icon.X className="menuToggle-icon" />}
+          {click ? (
+            <Icon.List className="menuToggle-icon" />
+          ) : (
+            <Icon.X className="menuToggle-icon" />
+          )}
           <div
             className={click ? "nav-mobile" : "nav-mobile active"}
             onClick={onClick}
@@ -43,7 +47,9 @@ const Header = ({ carts }) => {
           <Link to="/product" className="nav-link">
             Sản phẩm
           </Link>
-          <Link to="/contacts" className="nav-link">Liên hệ</Link>
+          <Link to="/contacts" className="nav-link">
+            Liên hệ
+          </Link>
         </div>
 
         <Link to="/cart" className="nav-link cart-menu">

@@ -6,7 +6,7 @@ import Filter from "../FilterProduct/Filter";
 
 const Products = ({ products, onAddToCart }) => {
   const [filter, setFilter] = useState("");
-
+//use
   const handleFilter = (name) => {
     setFilter(name);
   };

@@ -29,11 +29,11 @@ const Card = ({ carts, total, handleRemoveToCart, handleUpdateToCart }) => {
             />
           ))}
         </div>
-        <div className="mt-5 d-flex justify-content-between">
+        <div className="mt-5 mb-3 d-flex justify-content-between">
           <h4 className="fw-bold">Tổng tiền: ${total}</h4>
           <div className="">
             <Link to="/checkout">
-              <button className="btn btn-success mx-4"> Checkout</button>
+              <button className="btn btn-success"> Checkout</button>
             </Link>
             <Link to="/product">
               <button className="btn btn-dark"> Trở về</button>

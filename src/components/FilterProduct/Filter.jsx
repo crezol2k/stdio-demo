@@ -1,25 +1,49 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../components/FilterProduct/style.css";
 
-const Filter = ({ categories, handleFilter }) => {
+const Filter = ({ handleFilter }) => {
   return (
     <div className="category">
       <div className="category-header">
         <span>Danh mục</span>
       </div>
-      <div className="select">
-        <select
-          name="format"
-          id="format"
-          value={categories}
-          onChange={(e) => handleFilter(e.target.value)}
+      <div className="category-list">
+        <Link
+          to="/product"
+          onClick={() => handleFilter("-1")}
+          className="category-item active"
         >
-          <option value="-1">Tất cả</option>
-          <option value="1">Cà phê bột</option>
-          <option value="2">Cà phê hạt</option>
-          <option value="3">Máy pha cà phê</option>
-          <option value="4">Sản phẩm khác</option>
-        </select>
+          Tất cả
+        </Link>
+        <Link
+          to="/product"
+          onClick={() => handleFilter("1")}
+          className="category-item"
+        >
+          Cà phê bột
+        </Link>
+        <Link
+          to="/product"
+          onClick={() => handleFilter("2")}
+          className="category-item"
+        >
+          Cà phê hạt
+        </Link>
+        <Link
+          to="/product"
+          onClick={() => handleFilter("3")}
+          className="category-item"
+        >
+          Máy pha cà phê
+        </Link>
+        <Link
+          to="/product"
+          onClick={() => handleFilter("4")}
+          className="category-item"
+        >
+          Sản phẩm khác
+        </Link>
       </div>
     </div>
   );

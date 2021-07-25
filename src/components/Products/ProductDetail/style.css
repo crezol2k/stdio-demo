@@ -27,7 +27,21 @@ img {
 }
 
 .img-select {
+  display: flex;
+  overflow-x: auto;
 }
+
+.img-select::-webkit-scrollbar {
+  width: 0;
+}
+
+.img-select img {
+  width: 140px;
+  margin-right: 2px;
+  cursor: pointer;
+  border: 1px solid rgb(0 0 0 / 15%);
+}
+
 .box-detail .row {
   display: flex;
   justify-content: space-between;
@@ -43,4 +57,10 @@ img {
   line-height: 1.5;
   margin: 10px 0;
   opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .img-detail {
+    margin-bottom: 220px;
+  }
 }

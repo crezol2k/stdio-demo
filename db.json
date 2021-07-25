@@ -33,35 +33,35 @@
       "title": "Máy xay cà phê Fiorenzato",
       "price": 10,
       "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6001984.jpg",
-      "type": "2"
+      "type": "4"
     },
     {
       "id": 6,
       "title": "Máy pha cafe tự động Scott Slimissimo",
       "price": 195,
       "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/6/0/6002302.jpg",
-      "type": "3"
+      "type": "2"
     },
     {
       "id": 7,
       "title": "Cà phê sáng tạo 8",
       "price": 35,
       "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000124_1_4.jpg",
-      "type": "4"
+      "type": "1"
     },
     {
       "id": 8,
       "title": "Gu mạnh 3 in 1 hộp 12 gói",
       "price": 45,
       "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000069_4.jpg",
-      "type": "4"
+      "type": "3"
     },
     {
       "id": 9,
       "title": "Cà phê Chế Phin Loại 1",
       "price": 75,
       "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000104_5.jpg",
-      "type": "4"
+      "type": "1"
     },
     {
       "id": 10,
@@ -75,14 +75,14 @@
       "title": "Cà phê LEGEND",
       "price": 90,
       "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000519.jpg",
-      "type": "1"
+      "type": "3"
     },
     {
       "id": 12,
       "title": "Legend Special Edition",
       "price": 100,
       "src": "https://cafe.net.vn/media/catalog/product/cache/e82b7ffdb4edd6f9aa602feb1acbfed9/5/0/5000562.jpg",
-      "type": "Cà phê bột"
+      "type": "3"
     }
   ],
   "carts": []

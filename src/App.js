@@ -25,7 +25,7 @@ function App() {
     const response = await api.get("/carts");
     return response.data;
   };
-  
+
   //useEffect data Product
   useEffect(() => {
     const getProducts = async () => {
@@ -82,7 +82,7 @@ function App() {
         return item.id === cart.id ? { ...response.data } : item;
       })
     );
-  };
+  }; 
 
   // on remove to cart
   const handleRemoveToCart = async (id) => {
@@ -90,11 +90,11 @@ function App() {
     const newProduct = carts.filter((cart) => cart.id !== id);
     setCarts(newProduct);
   };
-
+  
   return (
     <div className="app">
       <Router>
-        <Header carts={carts} />
+        <Header carts={carts}/>
         <Switch>
           <Route path="/" exact>
             <Hero />
